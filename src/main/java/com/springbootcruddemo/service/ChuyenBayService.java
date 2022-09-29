@@ -1,7 +1,8 @@
-package java.com.springbootcruddemo.service;
+package com.springbootcruddemo.service;
 
-import java.com.springbootcruddemo.entity.ChuyenBay;
 import java.util.List;
+
+import com.springbootcruddemo.entity.ChuyenBay;
 
 public interface ChuyenBayService {
 //	1.Cho biết các chuyến bay đi Đà Lạt (DAD)

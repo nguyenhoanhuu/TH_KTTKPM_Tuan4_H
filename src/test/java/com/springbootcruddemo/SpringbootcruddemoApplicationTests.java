@@ -1,16 +1,17 @@
-package java.com.springbootcruddemo;
+package com.springbootcruddemo;
 
-import java.com.springbootcruddemo.entity.ChuyenBay;
-import java.com.springbootcruddemo.entity.NhanVien;
-import java.com.springbootcruddemo.service.ChungNhanService;
-import java.com.springbootcruddemo.service.ChuyenBayService;
-import java.com.springbootcruddemo.service.MayBayService;
-import java.com.springbootcruddemo.service.NhanVienService;
 import java.util.List;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import com.springbootcruddemo.entity.ChuyenBay;
+import com.springbootcruddemo.entity.NhanVien;
+import com.springbootcruddemo.service.ChungNhanService;
+import com.springbootcruddemo.service.ChuyenBayService;
+import com.springbootcruddemo.service.MayBayService;
+import com.springbootcruddemo.service.NhanVienService;
 
 @SpringBootTest
 class ApplicationTests {

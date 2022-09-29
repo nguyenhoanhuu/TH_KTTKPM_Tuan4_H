@@ -1,7 +1,8 @@
-package java.com.springbootcruddemo.service;
+package com.springbootcruddemo.service;
 
-import java.com.springbootcruddemo.entity.NhanVien;
 import java.util.List;
+
+import com.springbootcruddemo.entity.NhanVien;
 
 public interface NhanVienService {
 	public List<NhanVien> findByLuongNhoHon10000();

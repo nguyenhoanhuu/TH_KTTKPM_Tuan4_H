@@ -1,4 +1,4 @@
-package java.com.springbootcruddemo.entity;
+package com.springbootcruddemo.entity;
 
 import java.io.Serializable;
 

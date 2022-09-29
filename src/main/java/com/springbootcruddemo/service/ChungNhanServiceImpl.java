@@ -1,10 +1,11 @@
-package java.com.springbootcruddemo.service;
+package com.springbootcruddemo.service;
 
-import java.com.springbootcruddemo.repository.ChungNhanRespository;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.springbootcruddemo.repository.ChungNhanRespository;
 
 @Service
 public class ChungNhanServiceImpl implements ChungNhanService {

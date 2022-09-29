@@ -1,11 +1,12 @@
-package java.com.springbootcruddemo.service;
+package com.springbootcruddemo.service;
 
-import java.com.springbootcruddemo.entity.ChuyenBay;
-import java.com.springbootcruddemo.repository.ChuyenBayRespository;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.springbootcruddemo.entity.ChuyenBay;
+import com.springbootcruddemo.repository.ChuyenBayRespository;
 
 @Service
 public class ChuyenBayServiceImpl implements ChuyenBayService {

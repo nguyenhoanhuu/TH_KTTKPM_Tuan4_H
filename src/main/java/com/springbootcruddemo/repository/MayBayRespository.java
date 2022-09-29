@@ -1,11 +1,12 @@
-package java.com.springbootcruddemo.repository;
+package com.springbootcruddemo.repository;
 
 
-import java.com.springbootcruddemo.entity.MayBay;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+
+import com.springbootcruddemo.entity.MayBay;
 
 public interface MayBayRespository extends JpaRepository<MayBay, Integer>  {
 	

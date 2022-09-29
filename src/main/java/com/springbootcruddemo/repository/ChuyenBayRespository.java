@@ -1,11 +1,12 @@
-package java.com.springbootcruddemo.repository;
+package com.springbootcruddemo.repository;
 
 
-import java.com.springbootcruddemo.entity.ChuyenBay;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+
+import com.springbootcruddemo.entity.ChuyenBay;
 
 public interface ChuyenBayRespository extends JpaRepository<ChuyenBay, String>  {
 	

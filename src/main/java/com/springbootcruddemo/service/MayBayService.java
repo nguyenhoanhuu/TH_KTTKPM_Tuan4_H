@@ -1,4 +1,4 @@
-package java.com.springbootcruddemo.service;
+package com.springbootcruddemo.service;
 
 import java.util.List;
 

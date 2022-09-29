@@ -1,11 +1,12 @@
-package java.com.springbootcruddemo.repository;
+package com.springbootcruddemo.repository;
 
 
-import java.com.springbootcruddemo.entity.NhanVien;
 import java.util.List;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+
+import com.springbootcruddemo.entity.NhanVien;
 
 public interface NhanVienRespository extends JpaRepository<NhanVien, String>  {
 //	3. Tìm các nhân viên có lương nhỏ hơn 10,000.

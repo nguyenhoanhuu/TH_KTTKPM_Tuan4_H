@@ -1,11 +1,12 @@
-package java.com.springbootcruddemo.service;
+package com.springbootcruddemo.service;
 
-import java.com.springbootcruddemo.entity.NhanVien;
-import java.com.springbootcruddemo.repository.NhanVienRespository;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.springbootcruddemo.entity.NhanVien;
+import com.springbootcruddemo.repository.NhanVienRespository;
 
 @Service
 public class NhanVienServiceImpl implements NhanVienService {
